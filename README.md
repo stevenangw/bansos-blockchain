@@ -18,8 +18,8 @@ Proyek ini dibuat sebagai bagian dari penelitian skripsi yang membandingkan perf
 ```
 +-------------------+       +-------------------+       +----------------------------+
 |                   |       |                   |       |                            |
-|  Frontend (React) | <---> |  Backend (Express) | <---> |  Hyperledger Besu Network  |
-|  Vite + Axios     |  API  |  ethers.js         |  RPC  |  IBFT 2.0 / QBFT          |
+|  Frontend (React) | <---> |  Backend (Express)| <---> |  Hyperledger Besu Network  |
+|  Vite + Axios     |  API  |  ethers.js        |  RPC  |  IBFT 2.0 / QBFT           |
 |                   |       |                   |       |  (3 Node via Docker)       |
 +-------------------+       +-------------------+       +----------------------------+
                                                                     |
