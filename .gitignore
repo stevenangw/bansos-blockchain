@@ -1,0 +1,32 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+# Blockchain node data (generated saat setup, mengandung private key)
+**/node1/data/
+**/node2/data/
+**/node3/data/
+
+# Logs - data sensitif (private keys) dan file besar benchmark
+logs/senders.json
+logs/receivers.json
+logs/contract_addresses.json
+logs/resource_*.csv
+logs/_originals/
+
+# Frontend build
+frontend/dist

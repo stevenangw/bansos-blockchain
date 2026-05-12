@@ -1,0 +1,5 @@
+profile,metric,ibft_mean,ibft_std,qbft_mean,qbft_std,U,z,p_value,significant,effect_size
+baseline,CPU(%),5.45,10.04,2.96,6.87,8308663736,-83.1832,0.000000,true,-0.192
+baseline,MemUsed_MiB,681.44,89.83,575.53,20.52,2041843841.5,-347.4386,0.000000,true,-0.801
+chaos_combined,CPU(%),12.29,20.42,5.11,13.92,256049487,-58.4152,0.000000,true,-0.296
+chaos_combined,MemUsed_MiB,703.88,89.83,618.61,67.19,166178805.5,-107.2668,0.000000,true,-0.543

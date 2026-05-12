@@ -1,0 +1,52 @@
+{
+  "name": "bansos-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=8192 --expose-gc scripts/orchestrator.js",
+    "benchmark": "node --max-old-space-size=8192 --expose-gc scripts/orchestrator.js",
+    "menu": "node scripts/menu.js",
+    "app": "node scripts/automation/start_app.js",
+    "website": "node scripts/automation/start_app.js",
+    "setup:ibft": "node scripts/automation/setup.js ibft",
+    "setup:qbft": "node scripts/automation/setup.js qbft",
+    "reset:ibft": "node scripts/automation/reset_network.js ibft",
+    "reset:qbft": "node scripts/automation/reset_network.js qbft",
+    "reset:all": "node scripts/automation/reset_network.js all",
+    "analyze": "node scripts/automation/analyze.js",
+    "suite:ibft": "node scripts/automation/run_suite.js ibft",
+    "suite:qbft": "node scripts/automation/run_suite.js qbft",
+    "suite:all": "node scripts/automation/run_suite.js all",
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "web3": "^1.10.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.2",
+    "@nomicfoundation/hardhat-ethers": "^3.1.3",
+    "@nomicfoundation/hardhat-ignition": "^0.15.16",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.17",
+    "@nomicfoundation/hardhat-network-helpers": "^1.1.2",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "@nomicfoundation/hardhat-verify": "^2.1.3",
+    "@openzeppelin/contracts": "^5.6.1",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "chai": "^4.5.0",
+    "ethers": "^6.16.0",
+    "hardhat": "^2.28.6",
+    "hardhat-gas-reporter": "^2.3.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.6.0",
+    "solidity-coverage": "^0.8.17",
+    "typechain": "^8.3.2"
+  }
+}

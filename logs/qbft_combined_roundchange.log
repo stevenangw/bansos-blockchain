@@ -1,0 +1,10 @@
+# Round-Change Event Log
+# Protocol: qbft
+# Chaos: combined
+# Started: 2026-05-06T11:33:41.834Z
+#
+[2026-05-06T11:37:37.237Z] [besu-qbft-node1] 2026-05-06 11:37:37.193+00:00 | BftProcessorExecutor-QBFT-0 | INFO  | QbftBlockHeightManager | Received future Proposal which is illegal, no round change triggered.
+[2026-05-06T11:37:44.404Z] [besu-qbft-node1] 2026-05-06 11:37:44.397+00:00 | BftProcessorExecutor-QBFT-0 | INFO  | QbftBlockHeightManager | Received future Proposal which is illegal, no round change triggered.
+
+# Stopped: 2026-05-06T12:30:30.605Z
+# Total round-change events: 2

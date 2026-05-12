@@ -1,0 +1,20 @@
+{
+  "config" : {
+    "chainId" : 1337,
+    "londonBlock" : 0,
+    "berlinBlock" : 0,
+    "shanghaiBlock" : 0,
+    "parisBlock" : 0,
+    "zeroBaseFee" : true,
+    "qbft" : {
+      "blockperiodseconds" : 2,
+      "epochlength" : 30000,
+      "requesttimeoutseconds" : 4
+    }
+  },
+  "nonce" : "0x0",
+  "timestamp" : "0x58e81078",
+  "gasLimit" : "0x1ffffffffff",
+  "difficulty" : "0x1",
+  "extraData" : "0xf865a00000000000000000000000000000000000000000000000000000000000000000f83f9473a96d6c276ee8d0d1e96587efeedc850d2d075694d01a04801f57e840888b220691ea944dca776d6c94728496984924519424466de6d928224aad3fa646c080c0"
+}

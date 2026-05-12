@@ -1,0 +1,5 @@
+chaos_type,metric,ibft_mean,ibft_std,qbft_mean,qbft_std,U,z,p_value,significant,effect_size
+chaos_combined,throughput,53.49,34.42,56.96,32.67,99.5,-0.5392,0.589739,false,0.116
+chaos_combined,latency_mean,3115.05,3104.08,444.91,1071.20,25,-3.6293,0.000284,true,-0.778
+chaos_combined,latency_p50,2495.93,2654.28,272.60,887.10,19.5,-3.8575,0.000115,true,-0.827
+chaos_combined,latency_p95,7484.53,9928.56,1412.53,3850.91,31,-3.3805,0.000724,true,-0.724

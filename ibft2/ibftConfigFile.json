@@ -1,0 +1,27 @@
+{
+  "genesis": {
+    "config": {
+      "chainId": 1337,
+      "londonBlock": 0,
+      "berlinBlock": 0,
+      "shanghaiBlock": 0,
+      "parisBlock": 0,
+      "zeroBaseFee": true,
+      "ibft2": {
+        "blockperiodseconds": 2,
+        "epochlength": 30000,
+        "requesttimeoutseconds": 4
+      }
+    },
+    "nonce": "0x0",
+    "timestamp": "0x58e81078",
+    "gasLimit": "0x1ffffffffff",
+    "difficulty": "0x1"
+  },
+  "blockchain": {
+    "nodes": {
+      "count": 3,
+      "generate": true
+    }
+  }
+}
