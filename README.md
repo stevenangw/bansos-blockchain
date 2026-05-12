@@ -85,11 +85,9 @@ git --version     # Versi apapun
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/<username>/bansos-blockchain.git
+git clone https://github.com/stevenangw/bansos-blockchain.git
 cd bansos-blockchain
 ```
-
-> Ganti `<username>` dengan username GitHub kamu.
 
 ### 2. Konfigurasi Environment
 
@@ -263,62 +261,6 @@ Backend berjalan di `http://localhost:5000` dengan endpoint berikut:
 - `transfer(address to, uint256 amount)` -- Transfer token ke alamat whitelist
 - `balanceOf(address account)` -- Cek saldo token
 - `totalSupply()` -- Total token yang beredar
-
----
-
-## Dokumentasi Tambahan
-
-| Dokumen | Deskripsi |
-|---|---|
-| [Penjelasan Kode Skripsi](PENJELASAN_KODE_SKRIPSI.md) | Penjelasan detail implementasi kode |
-| [Dokumen Benchmark](DOKUMEN_CORE_BENCHMARK.md) | Dokumentasi engine benchmark |
-| [Dokumen Monitor & Analisis](DOKUMEN_MONITOR_ANALISIS.md) | Dokumentasi monitoring & analisis |
-| [Dokumen Setup Menu](DOKUMEN_SETUP_MENU.md) | Panduan menu interaktif |
-| [Dokumen Utilitas Tambahan](DOKUMEN_UTILITAS_TAMBAHAN.md) | Utilitas pendukung |
-| [Cheatsheet Terminal](CHEATSHEET_TERMINAL.md) | Perintah-perintah berguna |
-
----
-
-## Panduan Upload ke GitHub (untuk Pemula)
-
-Berikut langkah-langkah untuk mengupload proyek ini ke GitHub:
-
-### 1. Buat Repository Baru di GitHub
-
-1. Buka [github.com](https://github.com) dan login
-2. Klik tombol **"+"** di kanan atas, pilih **"New repository"**
-3. Isi nama repository (misal: `bansos-blockchain`)
-4. Pilih **Public** atau **Private**
-5. **Jangan** centang "Add a README file" (sudah ada)
-6. Klik **"Create repository"**
-
-### 2. Upload dari Komputer
-
-Buka terminal di folder proyek, lalu jalankan:
-
-```bash
-# Inisialisasi git (jika belum)
-git init
-
-# Tambahkan semua file
-git add .
-
-# Buat commit pertama
-git commit -m "Initial commit: Bansos Blockchain System"
-
-# Hubungkan ke repository GitHub
-git remote add origin https://github.com/<username>/bansos-blockchain.git
-
-# Push ke GitHub
-git branch -M main
-git push -u origin main
-```
-
-> Ganti `<username>` dengan username GitHub kamu.
-
-### 3. Verifikasi
-
-Buka halaman repository di GitHub dan pastikan semua file sudah terunggah. File `.env` dan `node_modules/` seharusnya **tidak** muncul karena sudah tercantum di `.gitignore`.
 
 ---
 
