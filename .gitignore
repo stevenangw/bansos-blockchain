@@ -30,3 +30,10 @@ logs/_originals/
 
 # Frontend build
 frontend/dist
+
+# Catatan Pribadi (Tidak akan masuk ke GitHub)
+notes/
+catatan.md
+catatan.txt
+temp_notes/
+*.private.md
